@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://synapse.loca.lt/api/:path*', // Proxy to NestJS
+        destination: 'https://backend.up.railway.app/api/:path*', // Proxy to NestJS
       },
     ];
   },

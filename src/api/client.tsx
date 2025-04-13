@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'https://synapse.loca.lt/api';
+const API_URL = 'https://backend.up.railway.app/api';
 
 const apiClient = axios.create({
   baseURL: API_URL, 
