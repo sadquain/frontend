@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://localhost:3000/api/:path*', // Proxy to NestJS
+        destination: 'https://synapse.loca.lt/api/:path*', // Proxy to NestJS
       },
     ];
   },
