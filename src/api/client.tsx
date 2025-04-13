@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://your-backend.vercel.app/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://synapse.loca.lt';
 
 const apiClient = axios.create({
   baseURL: API_URL, 
